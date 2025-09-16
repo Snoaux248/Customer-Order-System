@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="rootPane" xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.project.three.demo.OrderViewController"
+            prefHeight="400.0" prefWidth="600.0">
+    <ScrollPane AnchorPane.topAnchor="50"
+                AnchorPane.bottomAnchor="0.0"
+                AnchorPane.leftAnchor="0.0"
+                AnchorPane.rightAnchor="0.0">
+        <GridPane fx:id="grid" >
+
+        </GridPane>
+    </ScrollPane>
+    <Button fx:id="displayMode"
+            AnchorPane.topAnchor="10.0"
+            AnchorPane.rightAnchor="10.0">display mode</Button>
+    <Button fx:id="backButton"
+            AnchorPane.topAnchor="10.0"
+            AnchorPane.leftAnchor="10.0">Back to orders</Button>
+    <ScrollPane id="notificationView"  AnchorPane.topAnchor="60.0"
+                AnchorPane.bottomAnchor="10.0"
+                AnchorPane.rightAnchor="10.0">
+        <VBox>
+
+        </VBox>
+    </ScrollPane>
+</AnchorPane>

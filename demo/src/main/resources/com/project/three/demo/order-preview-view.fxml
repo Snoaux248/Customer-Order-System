@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="rootPane" xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.project.three.demo.OrderPreviewViewController"
+            prefHeight="400.0" prefWidth="600.0">
+
+    <ScrollPane AnchorPane.topAnchor="50"
+                AnchorPane.bottomAnchor="0.0"
+                AnchorPane.leftAnchor="0.0"
+                AnchorPane.rightAnchor="300.0">
+        <GridPane fx:id="grid">
+
+        </GridPane>
+    </ScrollPane>
+    <Button fx:id="displayMode"
+            AnchorPane.topAnchor="10.0"
+            AnchorPane.rightAnchor="10.0">display mode</Button>
+    <Button fx:id="backButton"
+            AnchorPane.topAnchor="10.0"
+            AnchorPane.leftAnchor="10.0">Modify Order</Button>
+    <Button fx:id="confirmOrder"
+            AnchorPane.topAnchor="10.0"
+            AnchorPane.rightAnchor="130.0">Confirm Order</Button>
+    <VBox   AnchorPane.topAnchor="40.0"
+            AnchorPane.rightAnchor="40.0">
+        <HBox>
+            <Label styleClass="CheckOutText">Price:</Label>
+            <Label fx:id="price" styleClass="Costs"> $100.00 </Label>
+        </HBox>
+        <HBox>
+            <Label styleClass="CheckOutText">Delivery Fee</Label>
+            <Label fx:id="fee" styleClass="Costs"> $100.00</Label>
+        </HBox>
+        <HBox>
+            <Label styleClass="CheckOutText">Discount price:</Label>
+            <Label fx:id="discount" styleClass="Costs"> $100.00</Label>
+        </HBox>
+        <HBox>
+            <Label styleClass="CheckOutText">Tax: </Label>
+            <Label fx:id="tax" styleClass="Costs"> $100.00</Label>
+        </HBox>
+        <HBox>
+            <Label styleClass="CheckOutText">Total:</Label>
+            <Label fx:id="total" styleClass="Costs">$100.00 </Label>
+        </HBox>
+    </VBox>
+    <HBox AnchorPane.topAnchor="30.0"
+          AnchorPane.rightAnchor="10.0">
+        <CheckBox fx:id="delivery" style="-fx-opacity:0;" disable="true"/>
+        <Label style="-fx-opacity:0;"> Delivery </Label>
+    </HBox>
+    <ScrollPane id="notificationView"  AnchorPane.topAnchor="60.0"
+                AnchorPane.bottomAnchor="10.0"
+                AnchorPane.rightAnchor="10.0">
+        <VBox>
+
+        </VBox>
+    </ScrollPane>
+</AnchorPane>

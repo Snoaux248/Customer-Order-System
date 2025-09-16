@@ -1,0 +1,78 @@
+
+true
+11111111
+Admin123$
+1
+2
+
+false
+22222222
+Hello123$
+why
+are you running
+John Doe
+123 Silver St
+1234567812345678
+0.0
+0
+0
+
+false
+33333333
+Pa$$w0rd
+17
+38
+Jane Doe
+123 Silver St
+1234567812345670
+4254.360000000001
+1
+2217
+1
+8243
+true
+1
+July 30, 2025 at 12:34 PM
+Wireless Fitness Earbuds
+Secure fit with sweat resistance
+69.99
+20.0
+30
+
+false
+44444444
+F**d4Thought
+hello
+goodbye
+Little Caesar
+Rome
+0987654321098765
+4180.8474
+2
+1097
+8820
+2
+7554
+true
+1
+July 30, 2025 at 12:25 PM
+Wireless Earbuds
+Compact and high quality sound
+59.99
+20.0
+1
+3472
+true
+2
+August 2, 2025 at 11:54 PM
+Smart Baby Monitor
+Video and audio monitoring
+129.99
+22.0
+2
+Electric Toothbrush
+Rechargeable with three modes
+49.99
+10.0
+1
+EOF

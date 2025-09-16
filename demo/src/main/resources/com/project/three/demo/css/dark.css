@@ -1,0 +1,230 @@
+.root{
+    -fx-background-color: linear-gradient(to top right, rgb(0, 0 ,0) 2%, rgb(24, 24, 24) 20%, rgb(47, 47, 47) 70%, rgb(74, 74, 74) 100%);
+    -fx-border-radius: 10px;
+    -fx-border:none;
+}
+ScrollPane{
+    -fx-alignment: center;
+    -fx-content-display: center;
+    -fx-background-color: transparent;
+    -fx-background: transparent;
+    -fx-fit-to-width: true;
+    -fx-fit-to-height: false;
+    -fx-padding:10px 10px 0px 10px;
+}
+GridPane{
+    -fx-alignment: center;
+    -fx-content-display: center;
+    -fx-hgap: 10px;
+    -fx-vgap: 10px;
+    -fx-padding:10px 10px 10px 10px;
+}
+.rootPane{
+    -fx-content-display: center;
+}
+
+Button{
+    -fx-background-radius: 10px;
+    -fx-border-width: 0;
+    -fx-background-color:#1A1A1A;
+    -fx-padding:5px 20px 5px 20px;
+    -fx-text-fill: #AAA;
+}
+Button:hover{
+    -fx-background-color:#000;
+}
+CheckBox{
+    -fx-border-width: 0;
+}
+TextField,
+PasswordField{
+    -fx-background-radius: 30 30 30 30;
+    -fx-border-radius: 30 30 30 30;
+    -fx-border-width: 0 0 1px 0;
+    -fx-border-color: transparent;
+    -fx-border-style: none none solid none;
+    -fx-background-color: #1A1A1A;
+    -fx-text-fill: #777;
+}
+TextField:hover,
+TextField:focused,
+PasswordField:hover,
+PasswordField:focused{
+    -fx-background-color: transparent;
+    -fx-border-color: transparent transparent rgba(167, 221, 238, 0.87) transparent;
+}
+VBox, HBox{
+    -fx-padding: 10px 10px 10px 10px;
+    -fx-spacing:0px;
+}
+HBox{
+    -fx-spacing: 10px;
+}
+.column{
+
+}
+.form{
+    -fx-pref-width: 450px;
+    -fx-pref-height: 500px;
+    -fx-transition-property: -fx-background-color;
+    -fx-transition-duration: 0.3s;
+}
+.menu{
+    -fx-pref-width: 200px;
+    -fx-pref-height: 200px;
+    -fx-font-size: 30px;
+    -fx-text-alignment: center;
+    -fx-text-fill: #777;
+    -fx-wrap-text: true;
+}
+.form, .menu{
+    -fx-effect: dropshadow(gaussian, rgb(0, 0, 0, .15), 15, 0.4, 0, 0);
+    -fx-padding: 40px 20px 40px 20px;
+    -fx-background-color: #222;
+    -fx-background-radius:20px;
+    -fx-border-width: 1px;
+    -fx-border-color: #373737;
+    -fx-border-radius: 20px;
+}
+.submenu{
+    -fx-effect: dropshadow(gaussian, rgb(0, 0, 0, .15), 15, 0.4, 0, 0);
+    -fx-padding: 20px 20px 20px 20px;
+    -fx-background-color: #222;
+    -fx-background-radius:20px;
+    -fx-border-width: 1px;
+    -fx-border-color: #373737;
+    -fx-border-radius: 20px;
+    -fx-font-size: 18px;
+    -fx-text-fill: #777;
+}
+.catalogueItem{
+    -fx-pref-width: 300px;
+    -fx-effect: dropshadow(gaussian, rgb(0, 0, 0, .15), 15, 0.4, 0, 0);
+    -fx-padding: 10px 10px 10px 10px;
+    -fx-background-color: #222;
+    -fx-background-radius:20px;
+    -fx-border-width: 1px;
+    -fx-border-color: #373737;
+    -fx-border-radius: 20px;
+    -fx-font-size: 12px;
+    -fx-text-fill: #777;
+    -fx-content-display: left;
+
+}
+.form:hover, .menu:hover, .submenu:hover, .catalogueItem:hover{
+    -fx-effect: dropshadow(gaussian, rgb(190, 190, 190, .25), 15, 0.4, 0, 0);
+}
+Label{
+    -fx-text-fill: #AAA;
+}
+#displayMode{
+}
+#greeting{
+    -fx-text-fill: #888;
+    -fx-font-size: 40;
+    -fx-wrap-text: true;
+    -fx-padding: 0 0 40 0;
+}
+.title{
+    -fx-font-size: 30px;
+    -fx-text-fill: #777;
+}
+.notification{
+    -fx-pref-width: 25px;
+    -fx-pref-height: 25px;
+    -fx-background-color: #333;
+    -fx-background-radius:13px 13px 13px 2px;
+    -fx-border-color: #700707;
+    -fx-border-radius: 13px 13px 13px 2px;
+    -fx-alignment: center;
+}
+.CheckOutText{
+    -fx-font-size: 20px;
+    -fx-text-fill: #777 ;
+}
+.Costs{
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #888 ;
+}
+
+.scroll-bar{
+    -fx-background: transparent;
+    -fx-background-color: transparent;
+}
+.scroll-bar .thumb{
+    -fx-background-color: #222;
+    -fx-background-radius: 20px;
+}
+.scroll-bar .track {
+    fx-background-color: #222;
+}
+.scroll-bar .increment-button,
+.scroll-bar .decrement-button {
+    -fx-background-color: transparent;
+}
+
+
+.orderItem{
+    -fx-pref-width: 300px;
+    -fx-effect: dropshadow(gaussian, rgb(0, 0, 0, .15), 15, 0.4, 0, 0);
+    -fx-padding: 10px 10px 10px 10px;
+    -fx-background-color: #222;
+    -fx-background-radius:20px;
+    -fx-border-width: 1px;
+    -fx-border-color: #373737;
+    -fx-border-radius: 20px;
+    -fx-font-size: 12px;
+    -fx-text-fill: #777;
+    -fx-content-display: left;
+}
+.orderItem .notification{
+    -fx-border-color: #2dc62d;
+}
+
+#notificationView{
+    -fx-content-display: center;
+    -fx-fit-to-width: true;
+    -fx-fit-to-height: false;
+    -fx-padding:0px 0px 0px 0px;
+    -fx-spacing:10px;
+}
+#notificationView VBox{
+    -fx-spacing: 10;
+}
+.notif{
+    -fx-pref-width: 240px;
+    -fx-effect: dropshadow(gaussian, rgb(0, 0, 0, .15), 15, 0.4, 0, 0);
+    -fx-background-color: #222;
+    -fx-background-radius:10px;
+    -fx-border-width: 2px;
+    -fx-border-radius: 10px;
+    -fx-font-size: 12px;
+    -fx-text-fill: #777;
+}
+.notif Label{
+    -fx-pref-width: 240px;
+    -fx-pref-height:80px;
+    -fx-effect: dropshadow(gaussian, rgb(0, 0, 0, .15), 15, 0.4, 0, 0);
+    -fx-background-color: #222;
+    -fx-background-radius:10px;
+    -fx-font-size: 18px;
+    -fx-text-fill: #777;
+    -fx-wrap-text: true;
+    -fx-padding: 10px 10px 10px 10px;
+}
+.notifError{
+    -fx-border-color: #00bfdc;
+}
+.notifAlert{
+    -fx-border-color: #26dc50;
+}
+.notifBalance{
+    -fx-border-color: rgb(222, 132, 255);
+}
+.notifFail{
+    -fx-border-color: #ff0000;
+}
+.notifWarn{
+    -fx-border-color: #ffe970;
+}

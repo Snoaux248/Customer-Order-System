@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="rootPane"
+            xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+          fx:controller="com.project.three.demo.AccountViewController"
+            prefHeight="400.0" prefWidth="600.0">
+    <GridPane fx:id="grid"
+              AnchorPane.topAnchor="0.0"
+              AnchorPane.bottomAnchor="0.0"
+              AnchorPane.leftAnchor="0.0"
+              AnchorPane.rightAnchor="0.0">
+        <VBox alignment="CENTER">
+            <Label fx:id="greeting"> Welcome: username </Label>
+            <HBox>
+                <Button fx:id="newOrder" styleClass="menu">New Order</Button>
+                <Button fx:id="viewOrders" styleClass="menu">View Previous Orders</Button>
+                <Button fx:id="logout" styleClass="menu">Logout</Button>
+            </HBox>
+        </VBox>
+    </GridPane>
+    <Button fx:id="displayMode"
+            AnchorPane.topAnchor="10.0"
+            AnchorPane.rightAnchor="10.0">display mode</Button>
+    <ScrollPane id="notificationView" AnchorPane.topAnchor="40.0"
+                AnchorPane.bottomAnchor="10.0"
+                AnchorPane.rightAnchor="10.0">
+        <VBox>
+
+        </VBox>
+    </ScrollPane>
+</AnchorPane>
